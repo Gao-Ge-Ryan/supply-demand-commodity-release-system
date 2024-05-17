@@ -1,0 +1,28 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rongxiaotong?serverTimezone=GMT%2B8&useUnicode=true&characterEncodeing=UTF-8&useSSL=false
+    username: root
+    password: Mysql123
+  jackson:
+    time-zone: GMT+8
+  redis:
+    host: 82.157.42.25
+    port: 6379
+    password: Redis123
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+#nginx存放图片的路径
+file:
+  location:
+    directory: /usr/local/learn/docker/nginx/html/
+# 支付宝 appId,私钥，支付宝公钥
+alipay:
+  info:
+    appId:
+    privateKey:
+    alipayPublicKey:
