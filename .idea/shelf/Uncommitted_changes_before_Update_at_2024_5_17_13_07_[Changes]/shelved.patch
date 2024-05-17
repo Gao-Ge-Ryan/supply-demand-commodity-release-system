@@ -1,0 +1,130 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#  基于Spring Boot-Vue的农产品销售-供销-供需发布系统-代码设计与实现-前后端分离一键部署版\r\n\r\n### 软件技术架构\r\n1. 后端: Spring Boot2.5.3、Mybatis\r\n2. 前端：Vue2.0\r\n3. 数据库：Mysql、Redis\r\n4. 部署: Docker、Docker-compose\r\n\r\n### 在线展示\r\n\r\n1. [ **bilibili演示视频（B站）记得一赞三连哦！ :tw-1f60d:**  ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)\r\n2. [  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)\r\n\r\n### 简介\r\n农产品销售系统，农产品供需关系发布系统，求购农产品，发布农产品信息，网上销售购物农产品系统\r\n\r\n### 功能介绍\r\n1、农产品信息发布，商品发布，农产品售卖。\r\n2、发布求购需求，发布自己需要的商品信息。\r\n3、购物车，自己购买的商品可以加入购物车\r\n4、引入支付宝在线支付系统。\r\n5、商家可以查看购买的订单，进行发货。\r\n6、农业知识模块，进行知识学习。\r\n7、用户管理，用户角色分为普通用户，专家学者，管理员。\r\n\r\n### 使用说明\r\n1. 本项目开源免费，可以自行拉取代码，项目启动运行若有疑问可以联系作者咨询\r\n2. 本代码存在许多不足，欢迎大佬提交代码合并请求\r\n3.  :tw-1f232: **本代码严禁自行售卖，从事任何商业行为，谢谢合作** \r\n4.  :tw-1f234: **若有侵权信息请联系作者删除，您的点赞收藏是我们前进的动力** \r\n5.  :tw-1f46c: **作者QQ：3300755918** \r\n\r\n### 功能详情图\r\n\r\n[  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)\r\n\r\n![输入图片说明](images/微信图片_20240512224322.png) \r\n![输入图片说明](images/微信图片_20240512224353.png) \r\n![输入图片说明](images/微信图片_20240512224413.png) \r\n![输入图片说明](images/微信图片_20240512224500.png) \r\n![输入图片说明](images/微信图片_20240512224612.png) \r\n![输入图片说明](images/微信图片_20240512224722.png) \r\n![输入图片说明](images/微信图片_20240512224739.png) \r\n![输入图片说明](images/微信图片_20240512224750.png) \r\n![输入图片说明](images/微信图片_20240512224802.png) \r\n![输入图片说明](images/微信图片_20240512224816.png) \r\n![输入图片说明](images/微信图片_20240512224816.png) \r\n![输入图片说明](images/微信图片_20240512224827.png) \r\n![输入图片说明](images/微信图片_20240512224854.png) \r\n\r\n\r\n\r\n[  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision e9dc20c64db4d2751c8b23b60af5c1e17f1be686)
++++ b/README.md	(date 1715922405266)
+@@ -9,19 +9,26 @@
+ ### 在线展示
+ 
+ 1. [ **bilibili演示视频（B站）记得一赞三连哦！ :tw-1f60d:**  ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
+-2. [  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
++2. [  :tw-25b6: **考试报名系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
+ 
+ ### 简介
+ 农产品销售系统，农产品供需关系发布系统，求购农产品，发布农产品信息，网上销售购物农产品系统
+ 
+ ### 功能介绍
+-1、农产品信息发布，商品发布，农产品售卖。
+-2、发布求购需求，发布自己需要的商品信息。
+-3、购物车，自己购买的商品可以加入购物车
+-4、引入支付宝在线支付系统。
+-5、商家可以查看购买的订单，进行发货。
+-6、农业知识模块，进行知识学习。
+-7、用户管理，用户角色分为普通用户，专家学者，管理员。
++
++
++1. 1. 农产品信息发布，商品发布，农产品售卖。
++1. 1. 发布求购需求，发布自己需要的商品信息。
++1. 1. 购物车，自己购买的商品可以加入购物车.
++1. 1. 引入支付宝在线支付系统。
++1. 1. 商家可以查看购买的订单，进行发货。
++1. 1. 农业知识模块，进行知识学习。
++1. 1. 用户管理，用户角色分为普通用户，专家学者，管理员。
++
++
++
++
++
+ 
+ ### 使用说明
+ 1. 本项目开源免费，可以自行拉取代码，项目启动运行若有疑问可以联系作者咨询
+@@ -32,22 +39,27 @@
+ 
+ ### 功能详情图
+ 
+-[  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
++[  :tw-25b6: **考试报名系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
++
++![输入图片说明](images/1.png) 
++
++![输入图片说明](images/1670050157018.png)
++
++![输入图片说明](images/1670049957367.png) :tw-2615: 
++![输入图片说明](images/1670049957329.png)
+ 
+-![输入图片说明](images/微信图片_20240512224322.png) 
+-![输入图片说明](images/微信图片_20240512224353.png) 
+-![输入图片说明](images/微信图片_20240512224413.png) 
+-![输入图片说明](images/微信图片_20240512224500.png) 
+-![输入图片说明](images/微信图片_20240512224612.png) 
+-![输入图片说明](images/微信图片_20240512224722.png) 
+-![输入图片说明](images/微信图片_20240512224739.png) 
+-![输入图片说明](images/微信图片_20240512224750.png) 
+-![输入图片说明](images/微信图片_20240512224802.png) 
+-![输入图片说明](images/微信图片_20240512224816.png) 
+-![输入图片说明](images/微信图片_20240512224816.png) 
+-![输入图片说明](images/微信图片_20240512224827.png) 
+-![输入图片说明](images/微信图片_20240512224854.png) 
++![输入图片说明](images/1670049957319.png)
+ 
++![输入图片说明](images/1670049957315.png)
+ 
++![输入图片说明](images/1670049957310.png)
+ 
+-[  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
++![输入图片说明](images/1670050156998.png)
++
++![输入图片说明](images/1670049957306.png)
++
++![输入图片说明](images/1670050156989.png)
++
++![输入图片说明](images/1670050127771.png)
++
++[  :tw-25b6: **考试报名系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7f0bc254-e7ec-4853-b564-d06c07b5b97f\" name=\"Changes\" comment=\"初始化代码\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"KubernetesApiPersistence\">\r\n    <option name=\"context\" value=\"docker-desktop\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"D:\\Learn\\maven_repository\" />\r\n        <option name=\"mavenHome\" value=\"$PROJECT_DIR$/../../apache-maven-3.6.3\" />\r\n        <option name=\"userSettingsFile\" value=\"D:\\Learn\\apache-maven-3.6.3\\conf\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2gZyXYnqH3oCNnqdCAyE3m6vBLR\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"SONARLINT_PRECOMMIT_ANALYSIS\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/images\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.sourceCode\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Learn\\java_project\\supply-demand-commodity-release-system\\images\" />\r\n      <recent name=\"D:\\Learn\\java_project\\supply-demand-commodity-release-system\\db\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7f0bc254-e7ec-4853-b564-d06c07b5b97f\" name=\"Changes\" comment=\"\" />\r\n      <created>1715919435008</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1715919435008</updated>\r\n      <workItem from=\"1715919437433\" duration=\"2096000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"初始化代码\">\r\n      <created>1715920626835</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715920626835</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"初始化代码\">\r\n      <created>1715921987087</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715921987087</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"初始化代码\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"初始化代码\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e9dc20c64db4d2751c8b23b60af5c1e17f1be686)
++++ b/.idea/workspace.xml	(date 1715922403506)
+@@ -54,7 +54,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1715919435008</updated>
+-      <workItem from="1715919437433" duration="2096000" />
++      <workItem from="1715919437433" duration="2419000" />
+     </task>
+     <task id="LOCAL-00001" summary="初始化代码">
+       <created>1715920626835</created>
+@@ -70,7 +70,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1715921987087</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="初始化代码">
++      <created>1715922212892</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1715922212892</updated>
++    </task>
++    <task id="LOCAL-00004" summary="初始化代码">
++      <created>1715922257418</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1715922257418</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

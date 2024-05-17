@@ -1,0 +1,184 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#  基于Spring Boot-Vue的农产品销售-供销-供需发布系统-代码设计与实现-前后端分离一键部署版\r\n\r\n### 软件技术架构\r\n1. 后端: Spring Boot2.5.3、Mybatis\r\n2. 前端：Vue2.0\r\n3. 数据库：Mysql、Redis\r\n4. 部署: Docker、Docker-compose\r\n\r\n### 在线展示\r\n\r\n1. [ **bilibili演示视频（B站）记得一赞三连哦！ :tw-1f60d:**  ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)\r\n2. [  :tw-25b6: **考试报名系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)\r\n\r\n### 简介\r\n农产品销售系统，农产品供需关系发布系统，求购农产品，发布农产品信息，网上销售购物农产品系统\r\n\r\n### 功能介绍\r\n1、农产品信息发布，商品发布，农产品售卖。\r\n2、发布求购需求，发布自己需要的商品信息。\r\n3、购物车，自己购买的商品可以加入购物车\r\n4、引入支付宝在线支付系统。\r\n5、商家可以查看购买的订单，进行发货。\r\n6、农业知识模块，进行知识学习。\r\n7、用户管理，用户角色分为普通用户，专家学者，管理员。\r\n\r\n### 使用说明\r\n1. 本项目开源免费，可以自行拉取代码，项目启动运行若有疑问可以联系作者咨询\r\n2. 本代码存在许多不足，欢迎大佬提交代码合并请求\r\n3.  :tw-1f232: **本代码严禁自行售卖，从事任何商业行为，谢谢合作** \r\n4.  :tw-1f234: **若有侵权信息请联系作者删除，您的点赞收藏是我们前进的动力** \r\n5.  :tw-1f46c: **作者QQ：3300755918** \r\n\r\n### 功能详情图\r\n\r\n[  :tw-25b6: **考试报名系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)\r\n\r\n![输入图片说明](images/1.png) \r\n\r\n![输入图片说明](images/1670050157018.png)\r\n\r\n![输入图片说明](images/1670049957367.png) :tw-2615: \r\n![输入图片说明](images/1670049957329.png)\r\n\r\n![输入图片说明](images/1670049957319.png)\r\n\r\n![输入图片说明](images/1670049957315.png)\r\n\r\n![输入图片说明](images/1670049957310.png)\r\n\r\n![输入图片说明](images/1670050156998.png)\r\n\r\n![输入图片说明](images/1670049957306.png)\r\n\r\n![输入图片说明](images/1670050156989.png)\r\n\r\n![输入图片说明](images/1670050127771.png)\r\n\r\n[  :tw-25b6: **考试报名系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 7d66b99c985ff244803c49363d8cf0b110e2a04f)
++++ b/README.md	(date 1715921788969)
+@@ -9,7 +9,7 @@
+ ### 在线展示
+ 
+ 1. [ **bilibili演示视频（B站）记得一赞三连哦！ :tw-1f60d:**  ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
+-2. [  :tw-25b6: **考试报名系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
++2. [  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
+ 
+ ### 简介
+ 农产品销售系统，农产品供需关系发布系统，求购农产品，发布农产品信息，网上销售购物农产品系统
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7f0bc254-e7ec-4853-b564-d06c07b5b97f\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/.browserslistrc\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/README.md\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/babel.config.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/public/index.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/public/rxt.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/App.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/api/address.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/api/alipay.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/api/cart.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/api/filesUpload.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/api/knowledge.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/api/order.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/api/pagination.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/api/user.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/bg1.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/clock.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/collection.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/eco.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/fill-in.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/food.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/fruit.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/full-star.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/good.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/half-star.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/no-star.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/person.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/rice.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/img/up-user.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/assets/logo.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/ChangeKnowledge.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/ChangeMessage.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/DeleteKnowledge.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/DeleteMessage.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/ExpertPublishKnowledge.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/ExpertPublishedKnowledge.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/GoodsSource.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/Knowledge.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/NavigationBar.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/Pagination.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/PublishMessage.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/PublishNav.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/PublishedMessage.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/Purchase.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/ReceivingAddress.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/UserAvatar.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/UserNav.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/router/index.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/store/index.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/utils/validate.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/AddMessage.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/Details.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/Home.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/HomeGoods.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/HomeKnowledge.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/HomePurchase.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/Login.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/Payment.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/PublishGoods.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/PublishKnowledges.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/PublishNeeds.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/PublishedGoods.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/PublishedKnowledges.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/PublishedNeeds.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/Register.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/ShopCart.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/User.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/UserAddress.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/UserBuy.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/UserInfo.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/UserManage.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/UserPassword.vue\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/views/UserSell.vue\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"KubernetesApiPersistence\">\r\n    <option name=\"context\" value=\"docker-desktop\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"D:\\Learn\\maven_repository\" />\r\n        <option name=\"mavenHome\" value=\"$PROJECT_DIR$/../../apache-maven-3.6.3\" />\r\n        <option name=\"userSettingsFile\" value=\"D:\\Learn\\apache-maven-3.6.3\\conf\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2gZyXYnqH3oCNnqdCAyE3m6vBLR\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.sourceCode\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7f0bc254-e7ec-4853-b564-d06c07b5b97f\" name=\"Changes\" comment=\"\" />\r\n      <created>1715919435008</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1715919435008</updated>\r\n      <workItem from=\"1715919437433\" duration=\"1021000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7d66b99c985ff244803c49363d8cf0b110e2a04f)
++++ b/.idea/workspace.xml	(date 1715921745468)
+@@ -1,81 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="7f0bc254-e7ec-4853-b564-d06c07b5b97f" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/frontend/.browserslistrc" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/babel.config.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/public/rxt.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/api/address.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/api/alipay.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/api/cart.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/api/filesUpload.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/api/knowledge.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/api/order.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/api/pagination.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/api/user.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/bg1.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/clock.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/collection.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/eco.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/fill-in.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/food.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/fruit.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/full-star.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/good.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/half-star.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/no-star.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/person.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/rice.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/img/up-user.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/logo.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ChangeKnowledge.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ChangeMessage.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/DeleteKnowledge.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/DeleteMessage.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ExpertPublishKnowledge.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ExpertPublishedKnowledge.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/GoodsSource.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Knowledge.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavigationBar.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Pagination.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PublishMessage.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PublishNav.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PublishedMessage.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Purchase.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ReceivingAddress.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserAvatar.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/UserNav.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/store/index.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/validate.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/AddMessage.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/Details.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/Home.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/HomeGoods.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/HomeKnowledge.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/HomePurchase.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/Login.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/Payment.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PublishGoods.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PublishKnowledges.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PublishNeeds.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PublishedGoods.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PublishedKnowledges.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PublishedNeeds.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/Register.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/ShopCart.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/User.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/UserAddress.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/UserBuy.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/UserInfo.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/UserManage.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/UserPassword.vue" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/views/UserSell.vue" afterDir="false" />
+-    </list>
++    <list default="true" id="7f0bc254-e7ec-4853-b564-d06c07b5b97f" name="Changes" comment="初始化代码" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -106,10 +32,17 @@
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/db" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+     <property name="vue.rearranger.settings.migration" value="true" />
++  </component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="D:\Learn\java_project\supply-demand-commodity-release-system\db" />
++    </key>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -119,8 +52,16 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1715919435008</updated>
+-      <workItem from="1715919437433" duration="1021000" />
++      <workItem from="1715919437433" duration="1773000" />
+     </task>
++    <task id="LOCAL-00001" summary="初始化代码">
++      <created>1715920626835</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1715920626835</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -137,4 +78,8 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="初始化代码" />
++    <option name="LAST_COMMIT_MESSAGE" value="初始化代码" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/git_toolbox_prj.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/git_toolbox_prj.xml b/.idea/git_toolbox_prj.xml
+new file mode 100644
+--- /dev/null	(date 1715920645941)
++++ b/.idea/git_toolbox_prj.xml	(date 1715920645941)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GitToolBoxProjectSettings">
++    <option name="commitMessageIssueKeyValidationOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
++    <option name="commitMessageValidationEnabledOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
