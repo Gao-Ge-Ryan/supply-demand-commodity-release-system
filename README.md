@@ -8,8 +8,8 @@
 
 ### 在线展示
 
-1. [ **bilibili演示视频（B站）记得一赞三连哦！ :tw-1f60d:**  ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
-2. [  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
+1. [ **bilibili演示视频（B站）记得一赞三连哦！ **  ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
+2. [   **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
 
 ### 简介
 农产品销售系统，农产品供需关系发布系统，求购农产品，发布农产品信息，网上销售购物农产品系统
@@ -30,13 +30,13 @@
 ### 使用说明
 1. 本项目开源免费，可以自行拉取代码，项目启动运行若有疑问可以联系作者咨询
 2. 本代码存在许多不足，欢迎大佬提交代码合并请求
-3.  :tw-1f232: **本代码严禁自行售卖，从事任何商业行为，谢谢合作** 
-4.  :tw-1f234: **若有侵权信息请联系作者删除，您的点赞收藏是我们前进的动力** 
-5.  :tw-1f46c: **作者QQ：3300755918** 
+3.   **本代码严禁自行售卖，从事任何商业行为，谢谢合作** 
+4.   **若有侵权信息请联系作者删除，您的点赞收藏是我们前进的动力** 
+5.   **作者QQ：3300755918** 
 
 ### 功能详情图
 
-[  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
+[   **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
 
 ![输入图片说明](images/微信图片_20240512224322.png)
 ![输入图片说明](images/微信图片_20240512224353.png)
@@ -52,4 +52,4 @@
 ![输入图片说明](images/微信图片_20240512224827.png)
 ![输入图片说明](images/微信图片_20240512224854.png)
 
-[  :tw-25b6: **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
+[   **系统使用演示视频** ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
