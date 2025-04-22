@@ -6,6 +6,14 @@
 3. 数据库：Mysql、Redis
 4. 部署: Docker、Docker-compose
 
+#### 演示网址
+
+- 用户端：[www.enrollpro.top](http://www.enrollpro.top)
+- 企业端：[enterprise.enrollpro.top](http://enterprise.enrollpro.top)
+- 管理端：[admin.enrollpro.top](http://admin.enrollpro.top)
+
+
+账号：123@qq.com 密码：Hh123@qqcom
 ### 在线展示
 
 1. [ **bilibili演示视频（B站）记得一赞三连哦！**  ](https://www.bilibili.com/video/BV16r42177r8/?spm_id_from=333.999.0.0&vd_source=eac6949bd2385c66c0a975d5765c99a5)
